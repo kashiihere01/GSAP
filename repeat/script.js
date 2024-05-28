@@ -1,11 +1,13 @@
 
-
-    // gsap.from means Final to Intial
-    gsap.from("h1",{
-    opacity:0,
-        duration:1,
-        y:30,
-        delay:1,
-        // work like loop will show data one by one
-        stagger:0.5      
-        })
+// gsap.to means intial to final
+gsap.to("#box",{
+    x:1000,
+    duration:2,
+    delay:1,
+    rotate:360,
+    backgroundColor:"red",
+    borderRadius:"50%",
+    repeat:-1,
+    yoyo:true
+    // scale = size
+    })
